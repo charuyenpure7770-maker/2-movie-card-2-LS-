@@ -103,7 +103,7 @@ backdrop */
     transform: translateY(-40%);
     transition: all 0.4s ease-in-out;
 }
-.backdrop.active .movieModel.active{
+.backdrop.active, .movieModel.active{
     opacity: 1;
     visibility: visible;
 }
